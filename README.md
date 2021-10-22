@@ -1,2 +1,2 @@
-# magento2-remove-url-from-sitemap.xml
-Magento2 free extension to remove spacific urls from sitemap.xml file.
+# magento2-remove-url-from-sitemap
+Magento2 free extension to remove specific URLs from sitemap.xml file.
