@@ -1,8 +1,8 @@
 # Magento2 Nadeem Sitemap
 Magento2 free extension to remove specific URLs from sitemap.xml file | Nadeem Khan
-
+<!-- 
 <img src="https://i.ibb.co/MpFR77S/Magento2-linneo-member-discount.png" alt="Magento2-linneo-member-discount" border="0">
-
+ -->
 ## Features:
 1. Admin can enable/disable the Extension from backend.
 2. Admin can mentioned the URL in box that needed to be romove.
