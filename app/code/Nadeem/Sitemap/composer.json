@@ -1,11 +1,12 @@
 {
-    "name": "nadeem/module-Sitemap",
-    "description": "",
-    "license": "open",
+    "name": "nadeem/module-sitemap",
+    "description": "Magento2 free extension to remove specific URLs from sitemap.xml file",
+    "type": "magento2-module",
+    "license": "proprietary",
     "authors": [
         {
-            "email": "khannadeem243@gmail.com",
-            "name": "Nadeem"
+            "name": "Mage2Gen",
+            "email": "info@mage2gen.com"
         }
     ],
     "minimum-stability": "dev",
