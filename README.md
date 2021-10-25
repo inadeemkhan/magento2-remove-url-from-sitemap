@@ -1,19 +1,14 @@
-# Mage2 Module Nadeem Sitemap
+# Magento2 Nadeem Sitemap
+Magento2 free extension to remove specific URLs from sitemap.xml file | Nadeem Khan
 
-    ``nadeem/module-sitemap``
+<img src="https://i.ibb.co/MpFR77S/Magento2-linneo-member-discount.png" alt="Magento2-linneo-member-discount" border="0">
 
- - [Main Functionalities](#markdown-header-main-functionalities)
- - [Installation](#markdown-header-installation)
- - [Configuration](#markdown-header-configuration)
- - [Specifications](#markdown-header-specifications)
- - [Attributes](#markdown-header-attributes)
+## Features:
+1. Admin can enable/disable the Extension from backend.
+2. Admin can mentioned the URL in box that needed to be romove.
+3. Works Like a Magento Core Functionality.
 
-
-## Main Functionalities
-Magento2 free extension to remove specific URLs from sitemap.xml file
-
-## Installation
-\* = in production please use the `--keep-generated` option
+# Installation Instruction
 
 ### Type 1: Zip file
 
@@ -34,27 +29,46 @@ Magento2 free extension to remove specific URLs from sitemap.xml file
  - apply database updates by running `php bin/magento setup:upgrade`\*
  - Flush the cache by running `php bin/magento cache:flush`
 
+# Contribution
 
-## Configuration
+Want to contribute to this extension? The quickest way is to <a href="https://help.github.com/articles/about-pull-requests/">open a pull request</a> on GitHub.
 
- - is_enable (general/sitemap/is_enable)
+# Screenshots & Support
 
- - rul_to_remove_from_sitemap (general/sitemap/rul_to_remove_from_sitemap)
+If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-buynow/issues">open an issue</a> on GitHub.
 
+<b>CART PAGE</b>
 
-## Specifications
+<img src="https://i.ibb.co/1KXZbZ8/Store-Configuration.png" alt="Store-Configuration" border="0">
 
- - Helper
-	- Nadeem\Sitemap\Helper\Data
+## Prerequisites
 
- - Plugin
-	- after_getSitemapRow - Magento\Sitemap\Model\Sitemap > Nadeem\Sitemap\Plugin\Magento\Sitemap\Model\Sitemap
+### Use the following table to verify you have the correct prerequisites to install this Extension.
+<table>
+	<tbody>
+		<tr>
+			<th>Prerequisite</th>
+			<th>How to check</th>
+			<th>For more information</th>
+		</tr>
+	<tr>
+		<td>Apache 2.2 or 2.4</td>
+		<td>Ubuntu: <code>apache2 -v</code><br>
+		CentOS: <code>httpd -v</code></td>
+		<td><a href="https://devdocs.magento.com/guides/v2.2/install-gde/prereq/apache.html">Apache</a></td>
+	</tr>
+	<tr>
+		<td>PHP 7.*.*</td>
+		<td><code>php -v</code></td>
+		<td><a href="http://devdocs.magento.com/guides/v2.2/install-gde/prereq/php-ubuntu.html">PHP Ubuntu</a><br><a href="http://devdocs.magento.com/guides/v2.2/install-gde/prereq/php-centos.html">PHP CentOS</a></td>
+	</tr>
+	<tr><td>MySQL 5.6.x</td>
+	<td><code>mysql -u [root user name] -p</code></td>
+	<td><a href="http://devdocs.magento.com/guides/v2.2/install-gde/prereq/mysql.html">MySQL</a></td>
+	</tr>
+</tbody>
+</table>
 
- - Plugin
-	- afterGetCollection - Magento\Sitemap\Model\ResourceModel\Catalog\Product > Nadeem\Sitemap\Plugin\Magento\Sitemap\Model\ResourceModel\Catalog\Product
+### Feedback and Support 
 
-
-## Attributes
-
-
-
+<a href="mailto:khannadeem243@gmail.com">khannadeem243@gmail.com</a>
