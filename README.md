@@ -1,4 +1,4 @@
-# Magento2 Nadeem Sitemap
+# Magento2 Remove URL from Sitemap
 Magento2 free extension to remove specific URLs from sitemap.xml file | Nadeem Khan
 <!-- 
 <img src="https://i.ibb.co/MpFR77S/Magento2-linneo-member-discount.png" alt="Magento2-linneo-member-discount" border="0">
