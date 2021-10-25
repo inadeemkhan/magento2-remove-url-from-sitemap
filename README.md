@@ -35,7 +35,7 @@ Want to contribute to this extension? The quickest way is to <a href="https://he
 
 # Screenshots & Support
 
-If you encounter any problems or bugs, please <a href="https://github.com/mageprince/magento2-buynow/issues">open an issue</a> on GitHub.
+If you encounter any problems or bugs, please <a href="https://github.com/inadeemkhan/magento2-remove-url-from-sitemap/issues">open an issue</a> on GitHub.
 
 <b>CART PAGE</b>
 
